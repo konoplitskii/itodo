@@ -1,0 +1,27 @@
+.Button {
+  border-radius: 4px;
+  padding: 9px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out , background-color 0.3s ease-in-out;
+  &.primaryButton{
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    &:hover{
+      color: var(--accent-color);
+      background-color: #fff;
+    }
+  }
+  &.secondaryButton {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    &:hover {
+      color: var(--secondary-color);
+      background-color: #fff;
+    }
+  }
+
+}

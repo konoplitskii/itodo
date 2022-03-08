@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 42px;
+  justify-content: space-between;
+  .Button,
+  .SelectBox{
+    margin-top: 40px;
+  }
+}
+
+@media(max-width: 768px) {
+  .Header {
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    .Button,
+    .SelectBox {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+}

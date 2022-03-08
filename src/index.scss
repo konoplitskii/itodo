@@ -1,0 +1,23 @@
+@import 'var.scss';
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  color: #586667;
+  color: var(--title-color);
+  margin-bottom: 0;
+}

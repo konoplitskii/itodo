@@ -1,0 +1,26 @@
+.TodoItem {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  &:not(:last-child){
+    margin-bottom: 15px;
+  }
+  .GroupActionButton {
+    margin-left: auto;
+    align-self: baseline;
+  }
+}
+
+.TodoLink {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333333;
+  transition: color 0.3s ease-in-out;
+  margin-left: 15px;
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
