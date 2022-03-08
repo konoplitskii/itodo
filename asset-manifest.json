@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/itodo/static/css/main.0a3e3246.css",
+    "main.js": "/itodo/static/js/main.5c807310.js",
+    "index.html": "/itodo/index.html",
+    "main.0a3e3246.css.map": "/itodo/static/css/main.0a3e3246.css.map",
+    "main.5c807310.js.map": "/itodo/static/js/main.5c807310.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a3e3246.css",
+    "static/js/main.5c807310.js"
+  ]
+}
